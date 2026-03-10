@@ -1,5 +1,6 @@
 # crash-dedup
 
+
 ## Summary
 
 `crash-dedup` is a Python library designed to streamline the management of crash reports in distributed systems. By grouping similar crash reports into a single entry, it reduces alert noise and helps engineers focus on resolving issues efficiently. The library includes features for generating unique fingerprints for stack traces, deduplicating crash data, persisting information in SQLite, and analyzing crash statistics.
